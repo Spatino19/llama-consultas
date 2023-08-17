@@ -8,7 +8,7 @@ from langchain import OpenAI, SQLDatabase
 
 import os
 import openai
-import custom_table_info
+from custom_table_info import custom_table_info
 
 
 class ChatGPTIntegration():
